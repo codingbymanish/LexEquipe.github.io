@@ -1,0 +1,395 @@
+body{
+    font-family: 'Lora', serif;
+    position: relative;
+}
+.sidetext{
+    position: absolute;
+    top: 8%;
+    left: 25%;
+    color: white;
+    word-spacing: 8px;
+    line-height: 1.2;
+    font-size: 50px;
+}
+
+.expert{
+    font-family: 'Signika', sans-serif;
+}
+.at{
+font-size: 18px;
+color: #e6a44c;
+}
+
+
+@media screen and (max-width:768px) {
+    .sidetext{display: none;}
+}
+
+
+/* title */
+.title{
+    font-family: sans-serif;
+    line-height: 1.15;
+}
+
+
+/* demo */
+.demo{
+    width: 550px;
+    height: 150px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 31%);
+    position: absolute;
+    top:13.5%;
+    background-color: white;
+}
+
+.demobutton{
+    width: 250px;
+    height: 60px;
+    background-color: rgb(230,164,76);
+    color: white;
+}
+.demobutton:hover{
+    background-color: rgb(230,164,76);
+    color: white;
+
+}
+.demotext{
+    font-family: 'Lora',serif;
+    color: #506172;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+.demoquality{
+    color: #e6a44c;
+    font-weight: 700;
+ 
+}
+
+
+@media screen and (max-width:1024px) {
+    .demo{
+        display: none;
+    }
+}
+
+/* head */
+.head{
+    background-color: rgb(0,45,91);
+}
+
+@media screen and (max-width:1024px) {
+    .head{
+        display: none;
+    }
+}
+
+
+/* nav */
+
+.navul{
+    color: rgb(0,46,91);
+    font-size: 14px;
+}
+.navul:hover{
+    color:rgb(230,164,76) ;
+    font-size: 14px;
+}
+
+.nav1{
+    border: none;
+    border-bottom: 2px solid rgb(0,45,91) ;
+    box-shadow: 0px 1px 20px #002d5b;
+    position: sticky;
+    top: 0;
+    opacity: 1;
+    background-color: white;
+    z-index: 99;
+}
+
+
+.dropa{
+    transition: 0.3s;
+    color: #002d5b;
+}
+.dropa:hover{
+    color: rgb(230,164,76);
+    transition: 0.3s;
+}
+
+@media screen and (min-width:1024px) {
+
+    .navitem{
+        margin-left: 205px;
+    }
+}
+
+@media screen and (min-width:1030px) {
+    .navitem{
+        margin-left: 550px;
+    }
+}
+
+
+
+/* firstimg */
+
+.firstimg{
+    height: 450px;
+}
+
+/* intro */
+
+.pp{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 30px;
+}
+.introp{
+    color: rgb(0,45,91);
+    transition: 0.7s;
+    font-size: 40px;
+
+}
+
+.introp:hover{
+    transform: translatey(-6px);
+    transition:0.7s;
+    color: rgb(230,164,76);
+}
+
+.introbutton{
+    background: rgb(230,164,76);
+    width: 210px;
+    font-size: 20px;
+    animation: side;
+}
+.introbutton:hover{
+    background: rgb(230,164,76);
+}
+
+
+
+.introimage{
+padding: 50px;
+margin-top: 50px;
+    animation: 80s infinite linear rotate;
+
+
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%
+    {
+      transform: rotate(360deg); 
+         }
+}
+/* ourservices */
+.serviceimage{
+    width: 50px;
+}
+
+/* image */
+.contimage{
+    background-color: rgb(248,250,254);
+}
+
+.boxs{
+    position: relative;
+    width: 320px;
+   overflow: hidden;
+}
+
+.content{
+    background-color:white;
+    width: 250px;
+    position: absolute;
+    top: 5%;
+    left: -100%;
+    height:95%;
+    transition: all ease 1s;
+ padding: 25px;
+}
+
+.caseimage{
+    width:320px;
+   height: auto;
+}
+
+.co{
+    color: #aebccb;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.boxs:hover .content{
+    left: 0;
+    transition: all ease 1s;
+}
+
+.capital{
+    font-family: 'Lora',serif;
+    color: #506172;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+
+.mehta{
+    font-family: 'Lora',serif;
+    color: #0b1c39;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 100;
+}
+
+
+/* happy customers */
+.OFFICER{
+    font-size: 12px;
+}
+
+.text{
+    font-size: 16px;
+text-align: justify;
+}
+
+
+
+/* speakingnumber */
+
+.speaking{
+    background: rgb(247,249,250);
+}
+
+.box{
+    width: 350px;
+}
+
+
+/* form */
+.form{
+    background: rgb(0,45,91);
+}
+
+.we{
+    font-family: 'Signika', sans-serif;
+    font-size: 1.5rem;
+}
+
+.we2{
+    font-family: 'Signika', sans-serif;
+
+color: rgb(222,160,76);
+font-weight: 600;
+}
+
+.inp{
+    background: transparent;
+    border: 2px solid rgb(41,86,132);
+    color: rgb(51, 105, 160);
+  width: 100%;
+  border-radius: 5px;
+  height: 50px;
+}
+.inp::placeholder{
+    color:white;
+}
+.inp:focus{
+    background: transparent;
+    border: 2px solid rgb(41,86,132);
+outline: #002d5b;
+}
+
+.inpbut{
+    background-color:rgb(230,166,80);
+}
+
+.inpbut{
+    border: none;
+    color: rgb(255, 255, 255);
+  width: 100%;
+  border-radius: 5px;
+  height: 50px;
+}
+
+
+/* footer */
+
+.footerp{
+    color: #868c98;
+    line-height: 1.8;
+}
+.foot{
+    color:rgb(34,34,34);
+    transition: 0.7s;
+    font-size: 35px;
+}
+
+.foot:hover{
+    transform: translatey(-6px);
+    transition:0.7s;
+    color: rgb(230,164,76);
+}
+
+.foota{
+    color: #868c98;
+    line-height: 2.5;
+transition: all ease-in-out 0.5s;
+
+}
+ .foota:hover{
+color: rgb(230,164,76);
+transform: translatex(7px);
+transition: all ease-in-out 0.5s;
+
+ }
+
+.footaa{
+
+color: #868c98;
+transition: all ease-in-out 0.5s;
+}
+
+.footaa:hover{
+    color: rgb(230,164,76);
+transform: translatex(7px);
+transition: all ease-in-out 0.5s;
+}
+
+.foothead{
+    color: rgb(14,58,103);
+}
+
+.end{
+    border-top:1px solid rgb(211,229,253);
+}
+
+
+/* last */
+
+.lastp{
+    color: #868c98;
+}
+
+#owlfirst .owl-nav button span {
+    font-size: 4rem;
+    display: none;
+}
+
+#owlfirst .owl-nav {
+    text-align: center;
+}
+
+.code{
+    position: fixed;
+    top: 85%;
+    left: 1%;
+    z-index: 99;
+}
